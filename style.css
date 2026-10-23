@@ -9,3 +9,10 @@ html{min-width:280px}body{background:#e5e5e3 url('assets/allcity-background.jpg'
 @media(max-width:350px){.brand>div{max-width:125px}.brand img{width:44px;height:43px}.teams{grid-template-columns:repeat(5,minmax(0,1fr))}.panel{padding:10px}.photo{height:185px}}
 
 .panel .stat-value em{color:#fff}
+
+/* White header, compact blue player card, and light blue answer panel. */
+header{height:86px;background:#fff;border-bottom:1px solid #dce2ed}.brand img{width:64px;height:62px}.brand{gap:12px}
+.arena{grid-template-columns:minmax(260px,400px) minmax(0,1fr);align-items:start}.player-card{min-height:0;background:#3e5eaa;color:#fff}.card-top{padding:14px 18px}.photo-wrap{background:#3e5eaa;min-height:0;flex:none}.photo{height:270px;mix-blend-mode:normal;display:block}.player-bottom{background:#fff;color:#3e5eaa;border-top:0;padding:18px}.player-name{font-size:28px;margin:6px 0 0}
+.panel{background:#edf2fb;color:#233d72;border:1px solid #d0daec}.scoreboard{background:#3e5eaa;border:0;color:#fff}.stat-label{color:#fff}.panel .stat-value em{color:#fff}.stat-value>span{color:#dce6fa!important}.progress{background:#d4dff2}.team-search{background:#fff;border-color:#bdcce6;color:#233d72}.team-search::placeholder{color:#6c7d9c}.team{background:#fff;border-color:#c5d1e6;color:#233d72}.team:hover:enabled{background:#dce6f8}.team.selected,.team.correct{background:#3e5eaa;color:#fff;border-color:#233d72}.team.wrong{background:#fce5e1;color:#8a2921;border-color:#ba5144}.primary:disabled{background:#d2dced;color:#6f7f9e}.panel .secondary{border-color:#a2b5d7;color:#29467e;background:#fff}.feedback{background:#dce7fb;color:#233d72}.feedback.bad{background:#fbe8e5;color:#822e27}.teams{scrollbar-color:#9badce #edf2fb}
+@media(max-width:760px){header{height:72px}.brand img{width:50px;height:49px}.brand{gap:9px}.arena{grid-template-columns:minmax(0,1fr);gap:14px}.player-card{width:100%;max-width:430px;margin:0 auto}.card-top{padding:11px 16px}.photo{height:195px}.player-bottom{padding:14px 16px}.player-name{font-size:clamp(22px,6.2vw,28px)}}
+@media(max-width:350px){.brand img{width:44px;height:43px}.photo{height:175px}}
